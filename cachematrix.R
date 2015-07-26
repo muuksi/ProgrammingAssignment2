@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
         # is the cache available?
         if (!is.null(tempMatrix)){
                 # returns the cached matrix
-                return (myTempMatrix)
+                return (tempMatrix)
         }
         # get the matrix object x
         data <- x$get()
